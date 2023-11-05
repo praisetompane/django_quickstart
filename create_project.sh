@@ -14,6 +14,10 @@ echo "done"
 
 cp run_project.sh ./$project
 cp create_app.sh ./$project
+cp .gitignore ./$project
+touch ./$project/README.md
+echo "#" $project >> ./$project/README.md
+
 
 
 
